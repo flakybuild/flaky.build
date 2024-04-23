@@ -434,6 +434,11 @@ ol.notion-list.notion-list-numbered > ol.notion-list.notion-list-numbered > ol.n
   border-radius: 50%;
 }
 
+/* Fixes the code blocks from not overflowing to full screen if the content is large */
+.notion-page-content-inner > * {
+  width: 100%;
+}
+
 .notion-header {
   background: hsla(0, 0%, 100%, 0.8);
   backdrop-filter: saturate(180%) blur(16px);
